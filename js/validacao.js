@@ -13,7 +13,6 @@ export function valida(input) {
         input.parentElement.querySelector('.input-mensagem-erro').innerHTML = mostraMensagemDeErro(tipoDeInput, input)
     }
 }
-
 const tiposDeErro = [
     'valueMissing',
     'typeMismatch',
